@@ -1,4 +1,10 @@
 #
+# import django working modules
+#
+from django.shortcuts import render
+from django.template  import loader
+from django.http      import HttpResponse
+#
 # import module that deals with Cros Site Request Fraudgery
 #
 from django.views.decorators.csrf import csrf_exempt
