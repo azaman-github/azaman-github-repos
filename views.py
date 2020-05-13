@@ -1,16 +1,3 @@
-#
-# import django working modules
-#
-from django.shortcuts import render
-from django.template  import loader
-from django.http      import HttpResponse
-#
-# import module that deals with Cros Site Request Fraudgery
-#
-from django.views.decorators.csrf import csrf_exempt
-#
-# import django model for user and module to authenticate  user
-#
 from django.contrib.auth.models import User
 from django.contrib.auth        import authenticate
 #
