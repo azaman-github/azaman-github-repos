@@ -1,4 +1,0 @@
-'''
-Test module to be checked-in
-'''
-print("I am being checked out from remote repository" )
