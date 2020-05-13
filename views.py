@@ -1,4 +1,6 @@
 #
+import cs
+#
 # import django working modules
 #
 from django.shortcuts import render
